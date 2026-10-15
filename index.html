@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BeyondStack | Cloud, DevOps & Observability Engineering</title>
+  <meta name="description" content="BeyondStack builds, ships and observes your software. Cloud infrastructure, Kubernetes, CI/CD, observability with Prometheus, Grafana and OpenTelemetry, and full-stack development from one senior team.">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Brand: favicons and app icons -->
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="assets/icons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Brand: social preview (absolute URLs are required by most crawlers; change the domain if you use a custom one) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BeyondStack">
+  <meta property="og:title" content="BeyondStack | Ship faster. Scale safely. See everything.">
+  <meta property="og:description" content="Cloud infrastructure, DevOps, observability and full-stack development from one senior engineering team.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/Bey0ndStack/.github/master/assets/social/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/Bey0ndStack/.github/master/assets/social/og-image.png">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"ProfessionalService","name":"BeyondStack","url":"https://github.com/Bey0ndStack",
+   "logo":"https://raw.githubusercontent.com/Bey0ndStack/.github/master/assets/icons/beyondstack-avatar.png","sameAs":["https://github.com/Bey0ndStack"],
+   "email":"ya1770620@gmail.com","slogan":"Build. Deploy. Observe. Scale.",
+   "knowsAbout":["Cloud infrastructure","Kubernetes","Terraform","CI/CD","DevOps","Observability","OpenTelemetry","Prometheus","Grafana","Full-stack development","APIs","Performance engineering"]}
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<canvas class="neural-bg" aria-hidden="true"></canvas>
+
+<header class="site-header" id="top">
+  <div class="bar-wrap">
+    <a class="brand" href="#top" aria-label="BeyondStack, home">
+      <img src="assets/logos/beyondstack-logo-primary-dark.svg" alt="BeyondStack" width="172" height="34">
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu"><span></span><span></span></button>
+    <nav id="nav" aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#stack">Stack</a>
+      <a href="#observability">Observability</a>
+      <a href="#process">Process</a>
+      <a href="#projects">Work</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn btn-primary btn-sm" href="#contact">Book a free call</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Cloud · DevOps · Observability · Development</p>
+        <h1>Ship faster.<br>Scale safely.<br><span class="accent">See everything.</span></h1>
+        <p class="lede">BeyondStack builds your product, ships it to the cloud through automated pipelines and wires in observability from day one. You release with confidence, grow without firefighting and always know what production is doing.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#contact">Get a free infrastructure review <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-ghost" href="#stack">Explore our stack</a>
+        </div>
+        <ul class="hero-proof">
+          <li><span class="tick" aria-hidden="true"></span> Senior engineers, no hand-offs</li>
+          <li><span class="tick" aria-hidden="true"></span> Everything as code. You own it</li>
+          <li><span class="tick" aria-hidden="true"></span> Observability built in, not bolted on</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="orbit-ring ring-obs">
+            <span class="orbit-path"></span>
+            <span class="orbit-item" style="--a:45deg;--d:-0s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/prometheus.svg" alt=""></b></span>
+            <span class="orbit-item" style="--a:135deg;--d:-0.75s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/grafana.svg" alt=""></b></span>
+            <span class="orbit-item" style="--a:225deg;--d:-1.5s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/opentelemetry.svg" alt=""></b></span>
+            <span class="orbit-item" style="--a:315deg;--d:-2.25s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/jaeger.svg" alt=""></b></span>
+          </div>
+          <div class="orbit-ring ring-devops">
+            <span class="orbit-path"></span>
+            <span class="orbit-item" style="--a:0deg;--d:-0.7s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/kubernetes.svg" alt=""></b></span>
+            <span class="orbit-item" style="--a:60deg;--d:-1.2s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/docker.svg" alt=""></b></span>
+            <span class="orbit-item" style="--a:120deg;--d:-1.7s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/githubactions.svg" alt=""></b></span>
+            <span class="orbit-item" style="--a:180deg;--d:-2.2s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/argo.svg" alt=""></b></span>
+            <span class="orbit-item" style="--a:240deg;--d:-2.7s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/terraform.svg" alt=""></b></span>
+            <span class="orbit-item" style="--a:300deg;--d:-3.2s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/helm.svg" alt=""></b></span>
+          </div>
+          <div class="orbit-ring ring-cloud">
+            <span class="orbit-path"></span>
+            <span class="orbit-item" style="--a:30deg;--d:-1.4s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/aws.svg" alt=""></b></span>
+            <span class="orbit-item" style="--a:90deg;--d:-1.9s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/googlecloud.svg" alt=""></b></span>
+            <span class="orbit-item" style="--a:150deg;--d:-2.4s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/azure.svg" alt=""></b></span>
+            <span class="orbit-item" style="--a:210deg;--d:-2.9s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/cloudflare.svg" alt=""></b></span>
+            <span class="orbit-item" style="--a:270deg;--d:-3.4s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/linux.svg" alt=""></b></span>
+            <span class="orbit-item" style="--a:330deg;--d:-3.9s"><i class="spoke"></i><b class="orbit-node"><img src="assets/technologies/nginx.svg" alt=""></b></span>
+          </div>
+          <div class="orbit-core"><img src="assets/icons/beyondstack-symbol-dark.svg" alt=""></div>
+        </div>
+        <ul class="orbit-legend" aria-label="What we connect">
+          <li class="lg-obs">Observability</li>
+          <li class="lg-devops">DevOps</li>
+          <li class="lg-cloud">Cloud</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH MARQUEE -->
+  <section class="tech-strip" aria-label="Technologies we work with">
+    <div class="wrap tech-heading"><span>THE STACK BEHIND THE SCALE</span><p>35+ cloud-native, DevOps and observability tools, used in production.</p></div>
+    <div class="tech-marquee">
+      <div class="tech-track">
+        <ul class="tech-group">
+          <li><img class="tech-logo" src="assets/technologies/aws.svg" alt="">AWS</li>
+          <li><img class="tech-logo" src="assets/technologies/googlecloud.svg" alt="">Google Cloud</li>
+          <li><img class="tech-logo" src="assets/technologies/azure.svg" alt="">Azure</li>
+          <li><img class="tech-logo" src="assets/technologies/kubernetes.svg" alt="">Kubernetes</li>
+          <li><img class="tech-logo" src="assets/technologies/docker.svg" alt="">Docker</li>
+          <li><img class="tech-logo" src="assets/technologies/terraform.svg" alt="">Terraform</li>
+          <li><img class="tech-logo" src="assets/technologies/helm.svg" alt="">Helm</li>
+          <li><img class="tech-logo" src="assets/technologies/argo.svg" alt="">Argo CD</li>
+          <li><img class="tech-logo" src="assets/technologies/githubactions.svg" alt="">GitHub Actions</li>
+          <li><img class="tech-logo" src="assets/technologies/gitlab.svg" alt="">GitLab CI</li>
+          <li><img class="tech-logo" src="assets/technologies/ansible.svg" alt="">Ansible</li>
+          <li><img class="tech-logo" src="assets/technologies/cloudflare.svg" alt="">Cloudflare</li>
+        </ul>
+        <ul class="tech-group" aria-hidden="true">
+          <li><img class="tech-logo" src="assets/technologies/aws.svg" alt="">AWS</li>
+          <li><img class="tech-logo" src="assets/technologies/googlecloud.svg" alt="">Google Cloud</li>
+          <li><img class="tech-logo" src="assets/technologies/azure.svg" alt="">Azure</li>
+          <li><img class="tech-logo" src="assets/technologies/kubernetes.svg" alt="">Kubernetes</li>
+          <li><img class="tech-logo" src="assets/technologies/docker.svg" alt="">Docker</li>
+          <li><img class="tech-logo" src="assets/technologies/terraform.svg" alt="">Terraform</li>
+          <li><img class="tech-logo" src="assets/technologies/helm.svg" alt="">Helm</li>
+          <li><img class="tech-logo" src="assets/technologies/argo.svg" alt="">Argo CD</li>
+          <li><img class="tech-logo" src="assets/technologies/githubactions.svg" alt="">GitHub Actions</li>
+          <li><img class="tech-logo" src="assets/technologies/gitlab.svg" alt="">GitLab CI</li>
+          <li><img class="tech-logo" src="assets/technologies/ansible.svg" alt="">Ansible</li>
+          <li><img class="tech-logo" src="assets/technologies/cloudflare.svg" alt="">Cloudflare</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tech-marquee tech-marquee-reverse">
+      <div class="tech-track">
+        <ul class="tech-group">
+          <li><img class="tech-logo" src="assets/technologies/prometheus.svg" alt="">Prometheus</li>
+          <li><img class="tech-logo" src="assets/technologies/grafana.svg" alt="">Grafana</li>
+          <li><img class="tech-logo" src="assets/technologies/opentelemetry.svg" alt="">OpenTelemetry</li>
+          <li><img class="tech-logo" src="assets/technologies/jaeger.svg" alt="">Jaeger</li>
+          <li><img class="tech-logo" src="assets/technologies/elastic.svg" alt="">Elastic</li>
+          <li><img class="tech-logo" src="assets/technologies/datadog.svg" alt="">Datadog</li>
+          <li><img class="tech-logo" src="assets/technologies/sentry.svg" alt="">Sentry</li>
+          <li><img class="tech-logo" src="assets/technologies/react.svg" alt="">React</li>
+          <li><img class="tech-logo" src="assets/technologies/nextjs.svg" alt="">Next.js</li>
+          <li><img class="tech-logo" src="assets/technologies/nodejs.svg" alt="">Node.js</li>
+          <li><img class="tech-logo" src="assets/technologies/python.svg" alt="">Python</li>
+          <li><img class="tech-logo" src="assets/technologies/go.svg" alt="">Go</li>
+          <li><img class="tech-logo" src="assets/technologies/postgresql.svg" alt="">PostgreSQL</li>
+          <li><img class="tech-logo" src="assets/technologies/redis.svg" alt="">Redis</li>
+        </ul>
+        <ul class="tech-group" aria-hidden="true">
+          <li><img class="tech-logo" src="assets/technologies/prometheus.svg" alt="">Prometheus</li>
+          <li><img class="tech-logo" src="assets/technologies/grafana.svg" alt="">Grafana</li>
+          <li><img class="tech-logo" src="assets/technologies/opentelemetry.svg" alt="">OpenTelemetry</li>
+          <li><img class="tech-logo" src="assets/technologies/jaeger.svg" alt="">Jaeger</li>
+          <li><img class="tech-logo" src="assets/technologies/elastic.svg" alt="">Elastic</li>
+          <li><img class="tech-logo" src="assets/technologies/datadog.svg" alt="">Datadog</li>
+          <li><img class="tech-logo" src="assets/technologies/sentry.svg" alt="">Sentry</li>
+          <li><img class="tech-logo" src="assets/technologies/react.svg" alt="">React</li>
+          <li><img class="tech-logo" src="assets/technologies/nextjs.svg" alt="">Next.js</li>
+          <li><img class="tech-logo" src="assets/technologies/nodejs.svg" alt="">Node.js</li>
+          <li><img class="tech-logo" src="assets/technologies/python.svg" alt="">Python</li>
+          <li><img class="tech-logo" src="assets/technologies/go.svg" alt="">Go</li>
+          <li><img class="tech-logo" src="assets/technologies/postgresql.svg" alt="">PostgreSQL</li>
+          <li><img class="tech-logo" src="assets/technologies/redis.svg" alt="">Redis</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMS -> OUTCOMES -->
+  <section id="problems" class="section">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Sound familiar?</p>
+        <h2>The problems we get called in for.<br><span class="heading-muted">And what changes after.</span></h2>
+      </div>
+      <div class="pains">
+        <article class="pain reveal">
+          <p class="pain-before"><span class="pain-x" aria-hidden="true">✕</span> Releases are stressful and done by hand</p>
+          <p class="pain-after"><span class="pain-ok" aria-hidden="true">✓</span> Automated CI/CD with tests, preview environments and one-click rollback.</p>
+        </article>
+        <article class="pain reveal">
+          <p class="pain-before"><span class="pain-x" aria-hidden="true">✕</span> You hear about outages from your customers</p>
+          <p class="pain-after"><span class="pain-ok" aria-hidden="true">✓</span> Dashboards, SLOs and alerts that catch issues before users notice.</p>
+        </article>
+        <article class="pain reveal">
+          <p class="pain-before"><span class="pain-x" aria-hidden="true">✕</span> The cloud bill keeps climbing</p>
+          <p class="pain-after"><span class="pain-ok" aria-hidden="true">✓</span> Right-sized, tagged infrastructure as code, with cost visibility per service.</p>
+        </article>
+        <article class="pain reveal">
+          <p class="pain-before"><span class="pain-x" aria-hidden="true">✕</span> Only one person knows how production works</p>
+          <p class="pain-after"><span class="pain-ok" aria-hidden="true">✓</span> Everything codified and documented, with runbooks your whole team can follow.</p>
+        </article>
+        <article class="pain reveal">
+          <p class="pain-before"><span class="pain-x" aria-hidden="true">✕</span> The app slows down as you grow</p>
+          <p class="pain-after"><span class="pain-ok" aria-hidden="true">✓</span> Bottlenecks found with real traces, then fixed with caching, tuning and load tests.</p>
+        </article>
+        <article class="pain reveal">
+          <p class="pain-before"><span class="pain-x" aria-hidden="true">✕</span> Your MVP has to become a real product</p>
+          <p class="pain-after"><span class="pain-ok" aria-hidden="true">✓</span> Clean architecture, typed APIs and a platform that is ready to scale.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> What we do</p>
+        <h2>Six disciplines. One team.<br><span class="heading-muted">From first commit to 3 a.m. alert.</span></h2>
+        <p>Most agencies stop at "it works on launch day". We cover every stage of getting software built, live and kept healthy, so nothing falls between vendors.</p>
+      </div>
+      <div class="cards">
+        <article class="card card-feature reveal">
+          <span class="card-icon"><img src="assets/icons/services/service-cloud-infrastructure.svg" alt="" width="40" height="40"></span>
+          <span class="card-tag">Core</span>
+          <h3>Cloud infrastructure</h3>
+          <p>Secure, reproducible cloud platforms on AWS, Google Cloud or Azure, sized for the work and the budget.</p>
+          <ul class="card-list"><li>Infrastructure as code with Terraform</li><li>Kubernetes and container platforms</li><li>Networking, IAM and cost optimisation</li></ul>
+          <div class="chips"><img src="assets/technologies/aws.svg" alt="AWS" title="AWS"><img src="assets/technologies/googlecloud.svg" alt="Google Cloud" title="Google Cloud"><img src="assets/technologies/azure.svg" alt="Azure" title="Azure"><img src="assets/technologies/kubernetes.svg" alt="Kubernetes" title="Kubernetes"><img src="assets/technologies/terraform.svg" alt="Terraform" title="Terraform"></div>
+        </article>
+        <article class="card card-feature reveal">
+          <span class="card-icon"><img src="assets/icons/services/service-observability.svg" alt="" width="40" height="40"></span>
+          <span class="card-tag">Core</span>
+          <h3>Observability</h3>
+          <p>Metrics, logs and traces that show what your systems are really doing, and alerts that only wake people for real problems.</p>
+          <ul class="card-list"><li>OpenTelemetry instrumentation</li><li>Grafana dashboards and SLOs</li><li>Alerting, on-call and runbooks</li></ul>
+          <div class="chips"><img src="assets/technologies/opentelemetry.svg" alt="OpenTelemetry" title="OpenTelemetry"><img src="assets/technologies/prometheus.svg" alt="Prometheus" title="Prometheus"><img src="assets/technologies/grafana.svg" alt="Grafana" title="Grafana"><img src="assets/technologies/jaeger.svg" alt="Jaeger" title="Jaeger"><img src="assets/technologies/elastic.svg" alt="Elastic" title="Elastic"></div>
+        </article>
+        <article class="card card-feature reveal">
+          <span class="card-icon"><img src="assets/icons/services/service-devops-cicd.svg" alt="" width="40" height="40"></span>
+          <span class="card-tag">Core</span>
+          <h3>DevOps and CI/CD</h3>
+          <p>Automated builds, tests and deployments, so a release becomes a routine event instead of a weekend plan.</p>
+          <ul class="card-list"><li>Pipelines with quality and security gates</li><li>GitOps delivery and canary releases</li><li>Secrets management and hardening</li></ul>
+          <div class="chips"><img src="assets/technologies/githubactions.svg" alt="GitHub Actions" title="GitHub Actions"><img src="assets/technologies/gitlab.svg" alt="GitLab" title="GitLab"><img src="assets/technologies/argo.svg" alt="Argo CD" title="Argo CD"><img src="assets/technologies/docker.svg" alt="Docker" title="Docker"><img src="assets/technologies/vault.svg" alt="Vault" title="Vault"></div>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><img src="assets/icons/services/service-fullstack.svg" alt="" width="40" height="40"></span>
+          <h3>Full-stack development</h3>
+          <p>Fast, accessible websites and web applications, from the interface down to the database.</p>
+          <ul class="card-list"><li>React and Next.js frontends</li><li>Admin panels, portals and SaaS products</li><li>SEO and Core Web Vitals</li></ul>
+          <div class="chips"><img src="assets/technologies/react.svg" alt="React" title="React"><img src="assets/technologies/nextjs.svg" alt="Next.js" title="Next.js"><img src="assets/technologies/typescript.svg" alt="TypeScript" title="TypeScript"><img src="assets/technologies/postgresql.svg" alt="PostgreSQL" title="PostgreSQL"></div>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><img src="assets/icons/services/service-backend-api.svg" alt="" width="40" height="40"></span>
+          <h3>Backend and APIs</h3>
+          <p>Services, APIs and integrations designed for clear contracts and a long life.</p>
+          <ul class="card-list"><li>REST and event-driven services</li><li>Third-party and payment integrations</li><li>Queues, caching and data modelling</li></ul>
+          <div class="chips"><img src="assets/technologies/nodejs.svg" alt="Node.js" title="Node.js"><img src="assets/technologies/python.svg" alt="Python" title="Python"><img src="assets/technologies/go.svg" alt="Go" title="Go"><img src="assets/technologies/redis.svg" alt="Redis" title="Redis"><img src="assets/technologies/kafka.svg" alt="Kafka" title="Kafka"></div>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><img src="assets/icons/services/service-performance.svg" alt="" width="40" height="40"></span>
+          <h3>Performance and reliability</h3>
+          <p>Platform and performance engineering so growth does not break what already works.</p>
+          <ul class="card-list"><li>Load testing and capacity planning</li><li>Autoscaling and high availability</li><li>Incident reviews and hardening</li></ul>
+          <div class="chips"><img src="assets/technologies/nginx.svg" alt="Nginx" title="Nginx"><img src="assets/technologies/cloudflare.svg" alt="Cloudflare" title="Cloudflare"><img src="assets/technologies/istio.svg" alt="Istio" title="Istio"><img src="assets/technologies/linux.svg" alt="Linux" title="Linux"></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK BRAIN -->
+  <section id="stack" class="section brain-section">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> The stack brain</p>
+        <h2>Every tool connected.<br><span class="heading-muted">Every signal accounted for.</span></h2>
+        <p>Your platform is not a pile of tools. It is a network. We wire cloud, delivery, observability and code together so a change in one place is visible everywhere. Hover or tap any node to see how we use it.</p>
+      </div>
+
+      <div class="brain" data-brain>
+        <div class="brain-filters" role="group" aria-label="Filter the stack">
+          <button type="button" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="cloud" aria-pressed="false">Cloud</button>
+          <button type="button" data-filter="devops" aria-pressed="false">DevOps</button>
+          <button type="button" data-filter="observability" aria-pressed="false">Observability</button>
+          <button type="button" data-filter="development" aria-pressed="false">Development</button>
+        </div>
+
+        <!-- Source data for the interactive map; also the readable fallback without JavaScript. -->
+        <div class="brain-source" data-core="BeyondStack" data-core-info="One senior team that connects your code, cloud, delivery and monitoring into a single system you can understand and own.">
+          <div class="lobe" data-lobe="cloud" data-title="Cloud" data-info="Secure, reproducible infrastructure on any major cloud, defined in code and sized for the work.">
+            <h3>Cloud and infrastructure</h3>
+            <ul>
+              <li data-id="aws" data-icon="aws" data-info="Landing zones, EKS, RDS, Lambda and IAM done properly, with cost visibility per service.">AWS</li>
+              <li data-id="googlecloud" data-icon="googlecloud" data-info="GKE, Cloud Run and managed data services, set up with least-privilege access.">Google Cloud</li>
+              <li data-id="azure" data-icon="azure" data-info="AKS, App Service and Azure networking for teams that live in the Microsoft ecosystem.">Azure</li>
+              <li data-id="kubernetes" data-icon="kubernetes" data-links="prometheus argo istio vault opentelemetry" data-info="Production-grade clusters with autoscaling, network policies and sane defaults.">Kubernetes</li>
+              <li data-id="docker" data-icon="docker" data-links="githubactions gitlab nodejs python" data-info="Small, secure, reproducible images that run the same on a laptop and in production.">Docker</li>
+              <li data-id="terraform" data-icon="terraform" data-links="aws googlecloud azure githubactions" data-info="Every resource in version control, reviewed in pull requests and applied by pipelines.">Terraform</li>
+              <li data-id="helm" data-icon="helm" data-links="kubernetes argo" data-info="Versioned, templated releases for every service and environment.">Helm</li>
+              <li data-id="cloudflare" data-icon="cloudflare" data-links="nextjs" data-info="CDN, DNS, WAF and edge caching to make sites fast and protected worldwide.">Cloudflare</li>
+              <li data-id="nginx" data-icon="nginx" data-links="elastic" data-info="Reverse proxies, ingress and load balancing tuned for real traffic.">Nginx</li>
+              <li data-id="linux" data-icon="linux" data-links="ansible prometheus" data-info="Hardened, patched and monitored servers when you need more than managed services.">Linux</li>
+            </ul>
+          </div>
+          <div class="lobe" data-lobe="devops" data-title="DevOps" data-info="Pipelines and automation that make every release tested, repeatable and reversible.">
+            <h3>DevOps and delivery</h3>
+            <ul>
+              <li data-id="githubactions" data-icon="githubactions" data-links="terraform docker" data-info="CI/CD with tests, security scans and preview environments on every pull request.">GitHub Actions</li>
+              <li data-id="gitlab" data-icon="gitlab" data-links="docker" data-info="End-to-end GitLab CI pipelines for teams already on GitLab.">GitLab CI</li>
+              <li data-id="jenkins" data-icon="jenkins" data-info="Modernising and stabilising existing Jenkins setups, or migrating away when it makes sense.">Jenkins</li>
+              <li data-id="argo" data-icon="argo" data-links="kubernetes helm" data-info="GitOps delivery: Git is the source of truth and the cluster follows it, with canary rollouts.">Argo CD</li>
+              <li data-id="ansible" data-icon="ansible" data-links="linux" data-info="Repeatable server configuration and patching without manual SSH sessions.">Ansible</li>
+              <li data-id="vault" data-icon="vault" data-links="kubernetes" data-info="Secrets out of code and out of chat, with rotation and audit trails.">Vault</li>
+              <li data-id="istio" data-icon="istio" data-links="kubernetes jaeger" data-info="Service mesh for mTLS, traffic shifting and fine-grained routing between services.">Istio</li>
+            </ul>
+          </div>
+          <div class="lobe" data-lobe="observability" data-title="Observability" data-info="Metrics, logs and traces in one feedback loop, with alerts that point to the cause, not just the symptom.">
+            <h3>Observability</h3>
+            <ul>
+              <li data-id="opentelemetry" data-icon="opentelemetry" data-links="nodejs python go jaeger prometheus" data-info="Vendor-neutral instrumentation for traces, metrics and logs, so you are never locked in.">OpenTelemetry</li>
+              <li data-id="prometheus" data-icon="prometheus" data-links="kubernetes grafana linux pagerduty" data-info="Metrics collection and alert rules for services, clusters and infrastructure.">Prometheus</li>
+              <li data-id="grafana" data-icon="grafana" data-links="prometheus elastic jaeger postgresql" data-info="Dashboards that answer real questions: is it up, is it fast, is it getting worse?">Grafana</li>
+              <li data-id="jaeger" data-icon="jaeger" data-links="istio" data-info="Distributed tracing that shows exactly where a slow request spends its time.">Jaeger</li>
+              <li data-id="elastic" data-icon="elastic" data-links="nginx kafka" data-info="Centralised, searchable logs with retention that matches your compliance needs.">Elastic</li>
+              <li data-id="datadog" data-icon="datadog" data-links="aws" data-info="When a managed platform fits better, we set Datadog up with useful monitors, not noise.">Datadog</li>
+              <li data-id="sentry" data-icon="sentry" data-links="react nextjs" data-info="Frontend and backend error tracking with releases, so regressions are caught in minutes.">Sentry</li>
+              <li data-id="pagerduty" data-icon="pagerduty" data-links="grafana" data-info="On-call rotations and escalation that page the right person, with a runbook attached.">PagerDuty</li>
+            </ul>
+          </div>
+          <div class="lobe" data-lobe="development" data-title="Development" data-info="Clean, typed, tested application code that is easy to change and ready for production.">
+            <h3>Development</h3>
+            <ul>
+              <li data-id="react" data-icon="react" data-links="nextjs typescript" data-info="Fast, accessible interfaces and component systems your team can extend.">React</li>
+              <li data-id="nextjs" data-icon="nextjs" data-info="SEO-friendly websites and full-stack apps with server rendering at the edge.">Next.js</li>
+              <li data-id="typescript" data-icon="typescript" data-links="nodejs" data-info="Typed code end to end, so whole classes of bugs never reach production.">TypeScript</li>
+              <li data-id="nodejs" data-icon="nodejs" data-links="redis mongodb" data-info="APIs, background workers and real-time services.">Node.js</li>
+              <li data-id="python" data-icon="python" data-links="fastapi" data-info="APIs, automation, data pipelines and AI integrations.">Python</li>
+              <li data-id="go" data-icon="go" data-links="kubernetes" data-info="High-performance services, CLIs and Kubernetes tooling.">Go</li>
+              <li data-id="fastapi" data-icon="fastapi" data-links="postgresql" data-info="Typed, documented Python APIs with automatic OpenAPI specs.">FastAPI</li>
+              <li data-id="postgresql" data-icon="postgresql" data-info="Well-modelled relational data with migrations, backups and query tuning.">PostgreSQL</li>
+              <li data-id="redis" data-icon="redis" data-info="Caching, rate limiting, sessions and queues that take load off the database.">Redis</li>
+              <li data-id="mongodb" data-icon="mongodb" data-info="Document storage where a flexible schema is the right fit.">MongoDB</li>
+              <li data-id="kafka" data-icon="kafka" data-links="go" data-info="Event streaming between services that need to scale independently.">Kafka</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OBSERVABILITY -->
+  <section id="observability" class="section obs-section">
+    <div class="wrap">
+      <div class="obs-grid">
+        <div class="obs-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Observability first</p>
+          <h2>If you can't see it,<br><span class="heading-muted">you can't fix it.</span></h2>
+          <p class="lede">Most teams find out about problems from angry customers. We make every request traceable, every service measurable and every alert actionable, so you find problems first and fix them fast.</p>
+          <ul class="obs-points">
+            <li><strong>Metrics</strong><span>Latency, traffic, errors and saturation for every service</span></li>
+            <li><strong>Logs</strong><span>Structured, centralised and searchable in seconds</span></li>
+            <li><strong>Traces</strong><span>Follow one request across every hop and database call</span></li>
+            <li><strong>Alerts and SLOs</strong><span>Page on user impact, with a runbook for every alert</span></li>
+          </ul>
+          <a class="text-link" href="#contact" data-service="Observability setup">Get an observability assessment <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="flow" data-flow aria-label="How signals flow from your applications to your team">
+          <svg class="flow-lines" aria-hidden="true"></svg>
+          <div class="flow-col">
+            <span class="flow-title"><span>Sources</span></span>
+            <div class="flow-node" id="f-app"><img src="assets/icons/services/service-fullstack.svg" alt=""><span>Your apps<small>APIs, web, workers</small></span></div>
+            <div class="flow-node" id="f-k8s"><img src="assets/technologies/kubernetes.svg" alt=""><span>Kubernetes<small>pods, nodes, events</small></span></div>
+            <div class="flow-node" id="f-cloud"><img src="assets/technologies/aws.svg" alt=""><span>Cloud<small>databases, queues, LBs</small></span></div>
+          </div>
+          <div class="flow-col flow-col-center">
+            <span class="flow-title"><span>Collect</span></span>
+            <div class="flow-node flow-node-hub" id="f-otel"><img src="assets/technologies/opentelemetry.svg" alt=""><span>OpenTelemetry<small>one pipeline for all signals</small></span></div>
+          </div>
+          <div class="flow-col">
+            <span class="flow-title"><span>Store</span></span>
+            <div class="flow-node" id="f-prom"><img src="assets/technologies/prometheus.svg" alt=""><span>Prometheus<small>metrics</small></span></div>
+            <div class="flow-node" id="f-jaeger"><img src="assets/technologies/jaeger.svg" alt=""><span>Jaeger<small>traces</small></span></div>
+            <div class="flow-node" id="f-elastic"><img src="assets/technologies/elastic.svg" alt=""><span>Elastic<small>logs</small></span></div>
+          </div>
+          <div class="flow-col">
+            <span class="flow-title"><span>Act</span></span>
+            <div class="flow-node flow-node-out" id="f-grafana"><img src="assets/technologies/grafana.svg" alt=""><span>Grafana<small>dashboards and SLOs</small></span></div>
+            <div class="flow-node flow-node-out" id="f-pager"><img src="assets/technologies/pagerduty.svg" alt=""><span>On-call<small>actionable alerts</small></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process" class="section">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> How we work</p>
+        <h2>A clear path from first call to calm production.</h2>
+        <p>No surprises. You always know what is happening, what it costs and what comes next.</p>
+      </div>
+      <ol class="steps">
+        <li class="reveal"><span class="step-num">01</span><h3>Discovery call</h3><p>A free conversation about your product, your goals and what is getting in the way.</p><p class="step-get">You get: honest first advice</p></li>
+        <li class="reveal"><span class="step-num">02</span><h3>Audit and plan</h3><p>We review your code, cloud and delivery, then write up what to fix first and why.</p><p class="step-get">You get: scope, timeline and cost in writing</p></li>
+        <li class="reveal"><span class="step-num">03</span><h3>Build and automate</h3><p>Short iterations with working results you can see and test along the way.</p><p class="step-get">You get: progress updates and demos</p></li>
+        <li class="reveal"><span class="step-num">04</span><h3>Launch and observe</h3><p>Safe rollout with dashboards and alerts live from the first day in production.</p><p class="step-get">You get: a system you can see into</p></li>
+        <li class="reveal"><span class="step-num">05</span><h3>Scale and support</h3><p>Tune, harden and grow with evidence from production, or hand over to your team.</p><p class="step-get">You get: docs, runbooks and full ownership</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ENGAGEMENTS -->
+  <section id="engagements" class="section">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Ways to work with us</p>
+        <h2>Start where it hurts most.</h2>
+        <p>Pick a focused engagement or combine them. Every one starts with a free call and a written proposal.</p>
+      </div>
+      <div class="plans">
+        <article class="plan reveal">
+          <span class="plan-kicker">LAUNCH</span>
+          <h3>Build your product</h3>
+          <p>A web app, API or platform taken from idea to production, with CI/CD and monitoring included from the start.</p>
+          <p class="plan-for"><b>Best for</b> startups and new products</p>
+          <a class="btn btn-ghost" href="#contact" data-service="Build a product">Discuss a build</a>
+        </article>
+        <article class="plan reveal">
+          <span class="plan-kicker">PLATFORM</span>
+          <h3>Cloud and DevOps setup</h3>
+          <p>Infrastructure as code, containers or Kubernetes, pipelines and environments, set up properly once.</p>
+          <p class="plan-for"><b>Best for</b> teams with manual or risky deploys</p>
+          <a class="btn btn-ghost" href="#contact" data-service="Cloud and DevOps setup">Discuss a platform</a>
+        </article>
+        <article class="plan plan-highlight reveal">
+          <span class="plan-badge">Our specialty</span>
+          <span class="plan-kicker">OBSERVE</span>
+          <h3>Observability sprint</h3>
+          <p>Instrumentation, dashboards, SLOs and alerting for an existing system, so you stop flying blind.</p>
+          <p class="plan-for"><b>Best for</b> teams who hear about issues from users</p>
+          <a class="btn btn-primary" href="#contact" data-service="Observability setup">Discuss observability</a>
+        </article>
+        <article class="plan reveal">
+          <span class="plan-kicker">CARE</span>
+          <h3>Ongoing reliability</h3>
+          <p>Monitoring, updates, security patches, cost reviews and steady improvements on a monthly basis.</p>
+          <p class="plan-for"><b>Best for</b> production apps that must stay up</p>
+          <a class="btn btn-ghost" href="#contact" data-service="Ongoing support">Discuss support</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section id="why" class="section">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Why BeyondStack</p>
+        <h2>Engineering you can rely on.<br><span class="heading-muted">Results you can see.</span></h2>
+      </div>
+      <div class="why">
+        <div class="why-item reveal"><span class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="19" cy="19" r="2"/><circle cx="12" cy="12" r="2.5"/><path d="M7 12h2.5M14.2 10.8 17.4 6.4M14.2 13.2l3.2 4.4"/></svg></span><h3>One team, code to cloud</h3><p>The people who write your app also deploy and monitor it. No finger-pointing between vendors.</p></div>
+        <div class="why-item reveal"><span class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></span><h3>Observability by default</h3><p>Every system we ship comes with dashboards, logs, traces and alerts. Not as an upsell.</p></div>
+        <div class="why-item reveal"><span class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></span><h3>Everything as code, all yours</h3><p>Infrastructure, pipelines and dashboards live in your repositories. No lock-in, ever.</p></div>
+        <div class="why-item reveal"><span class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v5c0 5 3.4 8.3 8 10 4.6-1.7 8-5 8-10V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span><h3>Security from the start</h3><p>Least-privilege access, managed secrets and scanning in every pipeline.</p></div>
+        <div class="why-item reveal"><span class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/><path d="M8 9h8M8 13h5"/></svg></span><h3>Clear communication</h3><p>Plain-language updates, written decisions and demos of real progress.</p></div>
+        <div class="why-item reveal"><span class="why-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5Z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg></span><h3>Documented handover</h3><p>Architecture notes and runbooks so your team can run it confidently without us.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Open work</p>
+        <h2>Projects</h2>
+        <p>Live from the <a href="https://github.com/Bey0ndStack" target="_blank" rel="noopener">Bey0ndStack GitHub organization</a>. New public repositories appear here automatically.</p>
+      </div>
+      <div id="repos" class="repos" aria-live="polite">
+        <p class="state">Loading repositories…</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="wrap faq-grid">
+      <div class="head">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> FAQ</p>
+        <h2>Questions clients ask before starting.</h2>
+        <p>Something else on your mind? <a href="#contact">Ask us directly.</a></p>
+      </div>
+      <div class="faq">
+        <details><summary>Can you take over an existing system?</summary><p>Yes. Most of our work starts with a system that already exists. We begin with an audit, stabilise what is risky, add visibility, and then improve it step by step without a big-bang rewrite.</p></details>
+        <details><summary>Which cloud provider should we use?</summary><p>The one that fits your team, budget and compliance needs. We work across AWS, Google Cloud and Azure, and we will tell you honestly when a simpler setup is enough.</p></details>
+        <details><summary>Do we own the code and the infrastructure?</summary><p>Completely. Code, Terraform, pipelines and dashboards live in your accounts and repositories from day one. You can continue without us at any time.</p></details>
+        <details><summary>Do you work with startups and small teams?</summary><p>Yes. We help early teams build a solid foundation without over-engineering, and we size the platform to your stage, not to a hypothetical future.</p></details>
+        <details><summary>What does observability actually give us?</summary><p>Answers. When something breaks or slows down you see where and why in minutes, instead of guessing. It also shows which parts of the system cost the most and which matter most to users.</p></details>
+        <details><summary>Do you offer support after launch?</summary><p>Yes. We offer ongoing reliability and support on a monthly basis, or a documented handover so your own team can run everything confidently.</p></details>
+        <details><summary>How do we get started?</summary><p>Send a short message using the form below. We will set up a free call, understand what you need, and follow up with a written proposal.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="wrap">
+      <div class="contact">
+        <div class="contact-copy">
+          <img class="contact-mark" src="assets/icons/beyondstack-symbol-dark.svg" alt="" width="64" height="64">
+          <h2>Let's make your platform something you never have to worry about.</h2>
+          <p>Tell us what you are building or what is hurting. We will reply with honest advice and next steps. The first call is free and there is no obligation.</p>
+          <ul class="contact-list">
+            <li><span class="tick" aria-hidden="true"></span> Free discovery call</li>
+            <li><span class="tick" aria-hidden="true"></span> Written proposal with scope and cost</li>
+            <li><span class="tick" aria-hidden="true"></span> You own everything we build</li>
+          </ul>
+          <div class="contact-direct">
+            <a href="mailto:ya1770620@gmail.com">ya1770620@gmail.com</a>
+            <a href="https://github.com/Bey0ndStack" target="_blank" rel="noopener">github.com/Bey0ndStack</a>
+          </div>
+        </div>
+        <form class="contact-form" action="mailto:ya1770620@gmail.com" method="post" enctype="text/plain" data-mailto="ya1770620@gmail.com">
+          <div class="field-row">
+            <label>Name<input name="name" autocomplete="name" required></label>
+            <label>Email<input name="email" type="email" autocomplete="email" required></label>
+          </div>
+          <label><span>Company <span class="optional">(optional)</span></span><input name="company" autocomplete="organization"></label>
+          <label>What do you need?
+            <select name="service">
+              <option>Cloud and DevOps setup</option>
+              <option>Observability setup</option>
+              <option>Build a product</option>
+              <option>Ongoing support</option>
+              <option>Performance or reliability issue</option>
+              <option>Not sure yet</option>
+            </select>
+          </label>
+          <label>Tell us a little about it<textarea name="message" rows="4" placeholder="What are you building, what is the current setup, and what would success look like?" required></textarea></label>
+          <button class="btn btn-primary" type="submit">Send enquiry <span aria-hidden="true">↗</span></button>
+          <p class="form-note">This opens your email app with the message ready to send.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div class="foot-brand">
+      <img src="assets/logos/beyondstack-logo-primary-dark.svg" alt="BeyondStack" width="150" height="29">
+      <p>Cloud, DevOps, observability and full-stack engineering from one senior team.</p>
+      <p class="foot-tagline">Build<i>.</i> Deploy<i>.</i> Observe<i>.</i> Scale<i>.</i></p>
+    </div>
+    <div class="foot-col">
+      <h3>Services</h3>
+      <a href="#services">Cloud infrastructure</a><a href="#observability">Observability</a><a href="#services">DevOps and CI/CD</a><a href="#services">Full-stack development</a>
+    </div>
+    <div class="foot-col">
+      <h3>Company</h3>
+      <a href="#process">How we work</a><a href="#engagements">Engagements</a><a href="#projects">Projects</a><a href="#faq">FAQ</a>
+    </div>
+    <div class="foot-col">
+      <h3>Contact</h3>
+      <a href="mailto:ya1770620@gmail.com">Email us</a><a href="https://github.com/Bey0ndStack" target="_blank" rel="noopener">GitHub</a><a href="#contact">Book a free call</a>
+    </div>
+    <p class="small foot-legal">&copy; <span id="year">2026</span> BeyondStack. Typefaces: Instrument Sans and JetBrains Mono, SIL Open Font License 1.1. Technology logos are trademarks of their respective owners.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
